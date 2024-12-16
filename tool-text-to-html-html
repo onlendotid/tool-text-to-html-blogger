@@ -1,0 +1,14 @@
+<div id="html-generator-tool">
+  <h2>Text to HTML Converter</h2>
+  <textarea id="plainTextInput"></textarea>
+  
+  <div class="button-group">
+    <button onclick="convertToHTML()">Convert to HTML</button>
+    <button onclick="clearFields()">Clear</button>
+  </div>
+  
+  <h3>Output HTML:</h3>
+  <div id="outputHTML"></div>
+  
+  <button class="copy-button" onclick="copyToClipboard()">Copy to Clipboard</button>
+</div>
